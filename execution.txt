@@ -1,0 +1,20 @@
+1) Save transaction Details /POST
+   URL         ->  {baseURL}/transactions/add
+  sample input JSON  -> {
+   "amount" : "1",
+   "timestamp": 1527607667847 
+  }
+ 
+ 
+ 2)  GET transaction Statastics /GET
+ URL                -> {baseURL}/trans/getdetails       
+ sample output JSON ->{
+    "sum": 8,
+    "count": 3,
+    "min": 1,
+    "max": 5,
+    "avg": 2.666
+}
+
+
+make sure that you are using latest timestamp while saving request details.
